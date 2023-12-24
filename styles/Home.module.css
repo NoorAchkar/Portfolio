@@ -1,0 +1,493 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title gradient-text {
+  background-color: #0070f3;
+  background-image: linear-gradient(45deg, #0070f3, #3b4a55);
+  text-decoration: none;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: none;
+}
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.informationgrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  max-width: 1000px;
+}
+
+.informationcard {
+  margin: 1rem;
+  padding: 1.3rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.informationcard:hover,
+.informationcard:focus,
+.informationcard:active {
+  color: white;
+  border-color: black;
+  background-color: black;
+}
+
+.informationcard h3 {
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+}
+
+.gridcourses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: 3rem;
+}
+
+.cardcourses {
+  margin: 1rem;
+  flex-basis: 100%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  position: relative;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.cardcourses:hover,
+.cardcourses:focus,
+.cardcourses:active {
+  border-color: #0070f3;
+}
+
+.cardcourses h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.cardcourses p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.expanded {
+  height: auto;
+}
+
+.downarrow {
+  position: absolute; 
+  right: 1rem; 
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  padding-right: 20px;
+}
+
+.downarrow:hover {
+  color: #0070f3;
+  cursor: pointer;
+}
+
+.gridaboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.cardaboutme {
+  margin: 1rem;
+  flex-basis: 100%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.cardaboutme h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.cardaboutme:hover,
+.cardaboutme:focus,
+.cardaboutme:active {
+  border-color: #0070f3;
+}
+
+.cardaboutme img {
+  max-width: 400px;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.aboutmepicture {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutmepicture img {
+  border-radius: 15px;
+  padding: 10px; 
+}
+
+.gridproject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: 3rem;
+  justify-content: left;
+}
+
+.gridproject a {
+  text-decoration: none;
+}
+
+.cardproject {
+  flex-basis: 100%;
+  padding: 1.5rem;
+  text-align: relative;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.cardproject:hover,
+.cardproject:focus,
+.cardproject:active {
+  background-color: #dee2e4;
+}
+
+.cardproject img {
+  max-width: 400px;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+
+.titleproject {
+  color:#0c66a5;
+}
+
+.contactgrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.contactcardlinkedin {
+  margin: 1rem;
+  flex-basis: 70%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.contactcardlinkedin:hover,
+.contactcardlinkedin:focus,
+.contactcardlinkedin:active {
+  color: white;
+  background-color: #0070f3;
+  background-image: linear-gradient(45deg, #0070f3, #3b4a55);
+  text-decoration: none;
+}
+
+.contactcardlinkedin h3 {
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactcardlinkedin p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.contactcardlinkedin arrowicon {
+  margin-left: 10px;
+}
+
+.contactcardphone {
+  margin: 1rem;
+  flex-basis: 70%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.contactcardphone:hover,
+.contactcardphone:focus,
+.contactcardphone:active {
+  color: white;
+  background-color: #0070f3;
+  background-image: linear-gradient(45deg, #61e165, #519f53);
+  text-decoration: none;
+}
+
+.contactcardphone h3 {
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactcardphone p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.contactcardphone arrowicon {
+  margin-left: 10px;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation:hover {
+  color: #0070f3;
+  cursor: pointer;
+}
+
+.subjects {
+  font-size: 1.5rem;
+}
+
+.navigation:hover {
+  color: #0070f3;
+  cursor: pointer;
+}
+
+.leadership {
+  padding-top: 70px;
+}
+
+.imageFix {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0.5rem; 
+  transition: opacity 0.3s ease; 
+  width: 200px; 
+  height: 200px; 
+}
+
+.opacity {
+  opacity: 0.5; 
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1; 
+}
+
+.imageText {
+  color: black;
+  padding: 10px;
+}
+
+.gridexperience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: 3rem;
+  justify-content: left;
+}
+
+.gridexperience a {
+  text-decoration: none;
+}
+
+.cardexperience {
+  margin: 1rem;
+  flex-basis: 100%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.cardexperience:hover,
+.cardexperience:focus,
+.cardexperience:active {
+  border-color: #0070f3;
+}
+
+.experiencetitle {
+  padding-left: 20px;
+  margin: 0px;
+  display: block;
+  font-size: 1.4em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.experiencetitle p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.cardexperience img {
+  max-width: 400px;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  padding-left: 20px;
+}
