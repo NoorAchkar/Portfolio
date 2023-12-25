@@ -20,7 +20,7 @@ export default function Home() {
       <main>
         
         <h1 className={styles.title}>
-          <a>Experience</a>
+          <gradient-text>Experience</gradient-text>
         </h1>
 
         <div className={styles.gridexperience}>

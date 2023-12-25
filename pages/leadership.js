@@ -43,7 +43,7 @@ export default function Home() {
       <main>
         
         <h1 className={styles.title}>
-          <a>Leadership & Volunteering</a>
+          <gradient-text>Leadership & Volunteering</gradient-text>
         </h1>
 
         <div className={styles.leadership}>

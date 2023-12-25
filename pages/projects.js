@@ -24,7 +24,7 @@ export default function Home() {
       <main>
         
         <h1 className={styles.title}>
-          <a>Projects</a>
+          <gradient-text>Projects</gradient-text>
         </h1>
 
         <div className={styles.gridproject}>

@@ -21,7 +21,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-            <a>About Me</a>
+            <gradient-text>About Me</gradient-text>
         </h1>
 
         <a className={styles.aboutmepicture}>
