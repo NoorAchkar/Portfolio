@@ -2,12 +2,13 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import avatar from "./pictures/NoorProfile.JPG";
 import Image from 'next/image';
-import jamhour from "./pictures/jamhour.jpeg"
-import notre_dame from "./pictures/Notre-Dame.png"
-import google from "./pictures/google.png"
-import ey from "./pictures/ey.png"
-import beirut from  "./pictures/beirut-leb.jpeg"
-import campus from "./pictures/campus.jpeg"
+import jamhour from "./pictures/jamhour.jpeg";
+import notre_dame from "./pictures/Notre-Dame.png";
+import google from "./pictures/google.png";
+import ey from "./pictures/ey.png";
+import beirut from  "./pictures/beirut-leb.jpeg";
+import campus from "./pictures/campus.jpeg";
+import NavBar from '../components/navigationbar';
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <Head>
         <title>Noor's Portfolio</title>
       </Head>
+
+      <NavBar />
 
       <main>
         <h1 className={styles.title}>

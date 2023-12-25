@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useState } from 'react';
 import Image from 'next/image';
+import NavBar from '../components/navigationbar';
 
 const CourseCard = ({ title, description }) => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -27,6 +28,8 @@ export default function Home() {
       <Head>
         <title>Noor's Portfolio</title>
       </Head>
+
+      <NavBar />
 
       <main>
         <h1 className={styles.title}>
