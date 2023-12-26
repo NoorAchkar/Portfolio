@@ -24,14 +24,6 @@ const YourComponent1 = () => {
 };
 
 export default function Home() {
-    const [hoveredImage, setHoveredImage] = useState(null);
-    const handleMouseEnter = (imageSrc) => {
-        setHoveredImage(imageSrc);
-      };
-    
-      const handleMouseLeave = () => {
-        setHoveredImage(null);
-      };
   return (
     <div className={styles.container}>
       <Head>
@@ -47,19 +39,11 @@ export default function Home() {
         </h1>
 
         <div className={styles.leadership}>
-            <div
-                className={`${styles.imageFix} ${hoveredImage === french ? styles.opacity : ''}`}
-                onMouseEnter={() => handleMouseEnter(french)}
-                onMouseLeave={handleMouseLeave}
-            >
-                <Image src={french} alt="picture of ND" width={200} height={200} priority/>
-                {hoveredImage === french && (
-                <div className={styles.overlayText}>
-                    <p>French Club</p>
-                </div>
-                )}
-                <p className={styles.imageText}> French </p>
-            </div>
+            <a href="https://sao.nd.edu/groups/"> 
+                <image-fix>
+                        <Image src={french} alt="picture of ND logo" width={200} height={200}/>
+                </image-fix>
+            </a>
             <a href="https://johnsonfamilyhall.nd.edu/"> 
                 <image-fix>
                         <Image src={jfam} alt="picture of Johnson Family Hall" width={200} height={200}/>
@@ -80,6 +64,36 @@ export default function Home() {
                         <Image src={afel} alt="picture of AFEL" width={200} height={200}/>
                 </image-fix>
             </a>
+        </div>
+
+        <div className={styles.gridaboutme}>
+          <a className={styles.cardaboutme}> 
+            <p>        
+              Since Fall 2022, I have been a member of the Board of the <bold>French Club</bold>. I coordinate weekly dinners, monthly movie 
+              nights and two “Café Français” to promote French culture and language immersion for a group of 20+ students.
+            <br></br>
+            <br></br>
+              During Fall 2022, I was a Signature Event Commissioner which means I organized, planned, and led <bold>Johnson Family 
+              Feud </bold>(Johnson Family Hall’s Signature Event) to foster community engagement and bonding for more than 300 people.
+            <br></br>
+            <br></br>
+              For 10 years in High School, I was a member at the <bold>Groupe Notre Dame - Jamhour</bold>, where I got promoted to Patrol Leader.
+              During my time I organized four camps per year including a two-week wilderness camp during the summer, where 
+              I led a team of 12 women. I contributed to the repainting of a hospital in Karantina, Lebanon, making a positive 
+              impact on the facility and region.
+            <br></br>
+            <br></br>
+            <bold>Donner Sang Compter (DSC)</bold> is a Non-Profit Non-Governmental Organization that promotes responsible 
+              citizenship by raising awareness and actively encouraging voluntary blood donation in Lebanon. From Fall 2018 until Summer 
+              2020, I attended bi-weekly meetings to update the school chapter on the club’s activities. 
+              I also participated in several blood drives assisting blood donors to make the donation process as smooth as possible.
+            <br></br>
+            <br></br>
+            <bold>AFEL (Association du Foyer de l'Enfant Libanais)</bold> is a non political, non religious NGO committed to protect, 
+              nurture & rehabilitate children suffering from abuse & neglect. From 2017 to 2018, I helped disadvantaged students 
+              with their homework twice a week and discussed their family issues and tried to alleviate stress by playing games.
+            </p>
+          </a>
         </div>
 
       </main>

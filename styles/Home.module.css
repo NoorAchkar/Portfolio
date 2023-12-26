@@ -290,7 +290,7 @@
 }
 
 .titleproject {
-  color:#0c66a5;
+  color:#0070f3;
 }
 
 .contactgrid {
@@ -502,4 +502,8 @@
 .navigation a:active {
   color: #0070f3;
   cursor: pointer;
+}
+
+.cardaboutme bold {
+  font-weight:bold;
 }
