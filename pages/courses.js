@@ -212,18 +212,15 @@ export default function Home() {
           </a>
           <a className={styles.cardcourses}>
             <CourseCard
-                title="CSE 40171 - AI and Society"
-                description="To reap the benefits of innovations stemming from AI, there will also have to be a framework 
-                that demonstrates alignment with societal needs and grand challenge problems, algorithmic and data responsibility, 
-                and knowledge of and compliance with best practices, coupled with a human-driven value system of sound judgment. 
-                This course will provide a foundation for Artificial Intelligence on concepts in machine learning and deep learning, 
-                decision making, and agents. In addition, the course will incorporate a discussion on ethics through reviews, 
-                discussions, and invited speakers. Utilizing an experiential learning framework, this course will involve applications 
-                of AI methods to social good problem spaces through a class project. This course will be a mix of lectures, 
-                seminars, and experiential learning opportunities. The course is open to both upper-level undergraduate and graduate 
-                students. However, it is an expectation that the graduate students will have an additional set of assignments, 
-                including a literature review paper. The graduate students will be encouraged to incorporate their research interests, 
-                as applicable, in development of their class projects."
+                title="CSE 40693 - Modern Web Development"
+                description="This course will focus on topics of modern web app development such as: MVC vs 
+                Component-based app architecture, RESTful API development, database schema design, interfacing 
+                with third-party APIs and more. In addition, many common JavaScript paradigms will be covered 
+                including asynchronous programming patterns, object-oriented JavaScript with classes, and unit testing. 
+                Discussions of engineering trade-offs will be complemented by projects in which students will develop 
+                their own web apps. These techniques are used by companies such as Groupon, Airbnb, Netflix, 
+                Medium and PayPal which have all adopted a full stack JavaScript approach, and are very useful 
+                to those interested in smaller tech startups as well."
             />
           </a>
           <a className={styles.cardcourses}>
